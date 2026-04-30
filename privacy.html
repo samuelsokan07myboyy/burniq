@@ -6,19 +6,37 @@
 <title>BurnIQ Privacy Policy</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f0e17; color: #fff; line-height: 1.7; }
-  .header { background: linear-gradient(135deg, #1e1040, #2a1060); padding: 48px 24px; text-align: center; }
-  .logo { font-size: 32px; font-weight: 900; color: #f97316; margin-bottom: 8px; }
-  .header h1 { font-size: 24px; font-weight: 700; color: #fff; margin-bottom: 8px; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f0e17; color: #fff; line-height: 1.8; }
+  .header { background: linear-gradient(135deg, #1e1040, #2a1060, #1a0830); padding: 48px 24px 40px; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.1); }
+  .logo { font-size: 36px; font-weight: 900; color: #f97316; margin-bottom: 8px; letter-spacing: -1px; }
+  .header h1 { font-size: 26px; font-weight: 800; color: #fff; margin-bottom: 8px; }
   .header p { font-size: 14px; color: rgba(255,255,255,0.5); }
-  .content { max-width: 720px; margin: 0 auto; padding: 40px 24px; }
-  h2 { font-size: 18px; font-weight: 700; color: #f97316; margin: 32px 0 12px; }
+  .toc { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; padding: 20px 24px; margin: 24px auto; max-width: 720px; }
+  .toc h3 { font-size: 14px; font-weight: 700; color: #f97316; margin-bottom: 12px; }
+  .toc a { display: block; font-size: 13px; color: #a78bfa; text-decoration: none; padding: 3px 0; }
+  .toc a:hover { color: #f97316; }
+  .content { max-width: 720px; margin: 0 auto; padding: 32px 24px 60px; }
+  h2 { font-size: 20px; font-weight: 800; color: #f97316; margin: 40px 0 14px; padding-top: 8px; border-top: 1px solid rgba(255,255,255,0.07); }
+  h3 { font-size: 16px; font-weight: 700; color: #e0deff; margin: 20px 0 8px; }
   p { font-size: 15px; color: rgba(255,255,255,0.8); margin-bottom: 14px; }
-  ul { padding-left: 20px; margin-bottom: 14px; }
-  li { font-size: 15px; color: rgba(255,255,255,0.8); margin-bottom: 6px; }
-  .card { background: rgba(255,255,255,0.05); border-radius: 14px; padding: 20px; margin: 20px 0; border: 1px solid rgba(255,255,255,0.08); }
-  .footer { text-align: center; padding: 40px 24px; color: rgba(255,255,255,0.3); font-size: 13px; border-top: 1px solid rgba(255,255,255,0.08); margin-top: 40px; }
-  a { color: #f97316; text-decoration: none; }
+  ul, ol { padding-left: 22px; margin-bottom: 14px; }
+  li { font-size: 15px; color: rgba(255,255,255,0.8); margin-bottom: 8px; line-height: 1.7; }
+  .card { background: rgba(255,255,255,0.05); border-radius: 14px; padding: 20px 24px; margin: 16px 0; border: 1px solid rgba(255,255,255,0.08); }
+  .card h3 { margin-top: 0; }
+  .highlight { background: rgba(249,115,22,0.1); border-left: 3px solid #f97316; padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 16px 0; }
+  .highlight p { margin: 0; font-size: 14px; color: rgba(255,255,255,0.85); }
+  .citation { background: rgba(96,165,250,0.08); border-radius: 10px; padding: 12px 16px; margin: 8px 0; border: 1px solid rgba(96,165,250,0.2); }
+  .citation p { margin: 0; font-size: 13px; color: rgba(200,195,255,0.8); font-style: italic; }
+  .citation a { color: #60a5fa; }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  th { background: rgba(255,255,255,0.08); color: #f97316; padding: 10px 14px; text-align: left; font-weight: 700; }
+  td { padding: 10px 14px; border-bottom: 1px solid rgba(255,255,255,0.06); color: rgba(255,255,255,0.75); vertical-align: top; }
+  a { color: #a78bfa; text-decoration: none; }
+  a:hover { color: #f97316; text-decoration: underline; }
+  .badge { display: inline-block; background: rgba(16,185,129,0.15); color: #10b981; border: 1px solid rgba(16,185,129,0.3); border-radius: 6px; padding: 2px 8px; font-size: 11px; font-weight: 700; margin-left: 6px; }
+  .footer { background: rgba(255,255,255,0.03); border-top: 1px solid rgba(255,255,255,0.08); text-align: center; padding: 32px 24px; }
+  .footer-logo { font-size: 20px; font-weight: 900; color: #f97316; margin-bottom: 6px; }
+  .footer p { font-size: 12px; color: rgba(255,255,255,0.3); margin: 4px 0; }
 </style>
 </head>
 <body>
@@ -26,111 +44,373 @@
 <div class="header">
   <div class="logo">🔥 BurnIQ</div>
   <h1>Privacy Policy</h1>
-  <p>Last updated: April 24, 2026</p>
+  <p>Last updated: April 30, 2026 &nbsp;·&nbsp; Effective: April 30, 2026</p>
 </div>
 
 <div class="content">
 
-  <div class="card">
-    <p>BurnIQ ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use the BurnIQ mobile application.</p>
+  <div class="highlight">
+    <p><strong>Summary:</strong> BurnIQ collects your health and account data to provide personalized nutrition tracking. We use Groq AI to power the coach and food scanner — your data is sent in real time and not stored by AI providers. We never sell your data. You can delete your account and all data at any time.</p>
   </div>
 
-  <h2>1. Information We Collect</h2>
-  <p>We collect the following types of information:</p>
-  <ul>
-    <li><strong>Account Information:</strong> Name, email address, and password when you create an account</li>
-    <li><strong>Profile Data:</strong> Age, gender, height, weight, fitness goals, and activity level</li>
-    <li><strong>Health & Fitness Data:</strong> Food diary entries, calorie intake, macronutrient data, and weight history</li>
-    <li><strong>Usage Data:</strong> App interactions, features used, and session information</li>
-    <li><strong>Device Information:</strong> Device type, operating system, and app version</li>
-  </ul>
+  <!-- Table of Contents -->
+  <div class="toc">
+    <h3>Table of Contents</h3>
+    <a href="#section1">1. Who We Are</a>
+    <a href="#section2">2. Information We Collect</a>
+    <a href="#section3">3. How We Collect Data</a>
+    <a href="#section4">4. How We Use Your Data</a>
+    <a href="#section5">5. AI Features & Third-Party Data Sharing</a>
+    <a href="#section6">6. Third-Party Services</a>
+    <a href="#section7">7. Medical Calculations & Citations</a>
+    <a href="#section8">8. Data Storage & Security</a>
+    <a href="#section9">9. Data Retention</a>
+    <a href="#section10">10. Your Rights</a>
+    <a href="#section11">11. Children's Privacy</a>
+    <a href="#section12">12. Cookies & Tracking</a>
+    <a href="#section13">13. International Data Transfers</a>
+    <a href="#section14">14. Changes to This Policy</a>
+    <a href="#section15">15. Contact Us</a>
+  </div>
 
-  <h2>2. How We Use Your Information</h2>
-  <p>We use your information to:</p>
-  <ul>
-    <li>Provide and personalize the BurnIQ app experience</li>
-    <li>Calculate calorie goals, macro targets, and BMI</li>
-    <li>Power the AI nutrition coach with your personal context</li>
-    <li>Track your progress and generate reports</li>
-    <li>Send push notifications (only if you enable them)</li>
-    <li>Process subscription payments via RevenueCat and Apple</li>
-    <li>Improve our app and fix bugs</li>
-  </ul>
-
-  <h2>3. Data Storage & Security</h2>
-  <p>Your data is securely stored using <strong>Supabase</strong>, a trusted cloud database provider. We use industry-standard encryption (TLS/SSL) for all data transmission. Passwords are encrypted and never stored in plain text.</p>
-  <p>We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction.</p>
-
-  <h2>4. Third-Party Services</h2>
-  <p>BurnIQ uses the following third-party services:</p>
-  <ul>
-    <li><strong>Supabase</strong> — Database and authentication — <a href='https://supabase.com/privacy'>Privacy Policy</a></li>
-    <li><strong>RevenueCat</strong> — Subscription management — <a href='https://www.revenuecat.com/privacy'>Privacy Policy</a></li>
-    <li><strong>Apple Sign In</strong> — <a href='https://www.apple.com/legal/privacy/'>Privacy Policy</a> &nbsp;|&nbsp; <strong>Google Sign In</strong> — <a href='https://policies.google.com/privacy'>Privacy Policy</a></li>
-    <li><strong>Groq AI</strong> — AI nutrition coach and food recognition — <a href='https://groq.com/privacy-policy/'>Privacy Policy</a></li>
-    <li><strong>Open Food Facts</strong> — Food nutrition database — <a href='https://world.openfoodfacts.org/privacy'>Privacy Policy</a> &nbsp;|&nbsp; <strong>USDA FoodData</strong> — <a href='https://www.usda.gov/privacy-policy'>Privacy Policy</a></li>
-    <li><strong>Resend</strong> — Transactional emails (password reset) — <a href='https://resend.com/privacy'>Privacy Policy</a></li>
-  </ul>
-  <p>Each third-party service has its own privacy policy governing their data practices.</p>
-
-  <h2>5. Health Data</h2>
-  <p>BurnIQ collects health and fitness information including weight, calorie intake, and nutritional data. This data is used solely to provide the app's core functionality. We do not sell or share your health data with third parties for advertising purposes.</p>
-  <p>BurnIQ is not a medical app and does not provide medical advice. Always consult a healthcare professional for medical decisions.</p>
-
-  <h2>6. AI Features & Data Transmission</h2>
-  <p>BurnIQ uses artificial intelligence powered by <strong>Groq AI</strong> (<a href="https://groq.com">groq.com</a>) for the following features:</p>
-  <ul>
-    <li><strong>AI Nutrition Coach:</strong> Your chat messages and basic profile context (age, weight, height, goals, and recent nutrition data) are transmitted to Groq's API to generate personalized nutrition responses. This data is processed in real time and is not stored by Groq beyond the immediate request.</li>
-    <li><strong>AI Food Scanner:</strong> Food images captured by your camera are transmitted to Groq's vision API for food identification and nutrition estimation. Images are processed in real time and are not stored by Groq.</li>
-    <li><strong>Food Search Fallback:</strong> When food search returns no results, a food description is sent to Groq's API to estimate nutrition values.</li>
-  </ul>
-  <p><strong>Important:</strong> We do not use your conversations, images, or personal data to train AI models. Data sent to Groq AI is subject to <a href="https://groq.com/privacy-policy/">Groq's Privacy Policy</a>. No personal health data is permanently stored by third-party AI providers.</p>
-
-  <h2>7. Medical Calculations & Citations</h2>
-  <p>BurnIQ uses scientifically validated formulas for health calculations. These are estimates only — actual results vary by individual. Always consult a healthcare professional before making significant dietary or lifestyle changes.</p>
-  <ul>
-    <li><strong>Calorie Estimation (BMR):</strong> Mifflin-St Jeor equation — Mifflin MD, St Jeor ST, et al. "A new predictive equation for resting energy expenditure in healthy individuals." <em>American Journal of Clinical Nutrition.</em> 1990;51(2):241-7. <a href="https://pubmed.ncbi.nlm.nih.gov/2305711/">PubMed ID: 2305711</a></li>
-    <li><strong>Activity Multipliers (TDEE):</strong> Harris-Benedict revised equation — Roza AM, Shizgal HM. "The Harris Benedict equation reevaluated." <em>American Journal of Clinical Nutrition.</em> 1984;40(1):168-82.</li>
-    <li><strong>BMI Calculation:</strong> World Health Organization standard — WHO. "Obesity: preventing and managing the global epidemic." Geneva: WHO, 2000. <a href="https://www.who.int/publications/i/item/obesity-preventing-and-managing-the-global-epidemic">WHO Reference</a></li>
-    <li><strong>Macronutrient Guidelines:</strong> Based on Dietary Reference Intakes from the National Academies of Medicine. <a href="https://www.nationalacademies.org/our-work/dietary-reference-intakes">Learn more</a></li>
-  </ul>
-  <p><strong>Disclaimer:</strong> BurnIQ is not a medical app and does not provide medical advice. Nutritional data from food databases may vary from actual values. Consult a registered dietitian or healthcare provider for personalized medical nutrition therapy.</p>
-
-  <h2>8. Data Retention</h2>
-  <p>We retain your data for as long as your account is active. You can delete your account and all associated data at any time through the app's Profile → Settings → Delete Account option. Upon deletion, your data is permanently removed from our servers within 30 days.</p>
-
-  <h2>9. Children's Privacy</h2>
-  <p>BurnIQ is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us and we will delete it immediately.</p>
-
-  <h2>10. Your Rights</h2>
-  <p>You have the right to:</p>
-  <ul>
-    <li>Access your personal data at any time through the app</li>
-    <li>Correct inaccurate data in your profile settings</li>
-    <li>Delete your account and all associated data</li>
-    <li>Export your progress data (via the share/export feature)</li>
-    <li>Opt out of push notifications in your device settings</li>
-  </ul>
-
-  <h2>11. Cookies & Tracking</h2>
-  <p>BurnIQ does not use cookies or cross-app tracking. We do not share your data with advertisers or data brokers.</p>
-
-  <h2>12. Changes to This Policy</h2>
-  <p>We may update this Privacy Policy from time to time. We will notify you of significant changes via the app or email. Continued use of BurnIQ after changes constitutes acceptance of the updated policy.</p>
-
-  <h2>13. Contact Us</h2>
-  <p>If you have any questions about this Privacy Policy or your data, please contact us:</p>
+  <!-- Section 1 -->
+  <h2 id="section1">1. Who We Are</h2>
+  <p>BurnIQ is developed and operated by <strong>Samuel Sokan</strong> ("we", "our", "us"), an independent app developer. BurnIQ is a personal nutrition and calorie tracking application available on the Apple App Store.</p>
   <div class="card">
-    <p><strong>Email:</strong> <a href="mailto:samuelsokan07@gmail.com">samuelsokan07@gmail.com</a></p>
-    <p><strong>App:</strong> BurnIQ</p>
+    <h3>Contact Information</h3>
     <p><strong>Developer:</strong> Samuel Sokan</p>
+    <p><strong>Email:</strong> <a href="mailto:samuelsokan07@gmail.com">samuelsokan07@gmail.com</a></p>
+    <p><strong>Support:</strong> <a href="https://samuelsokan07myboyy.github.io/burniq/support.html">https://samuelsokan07myboyy.github.io/burniq/support.html</a></p>
+  </div>
+
+  <!-- Section 2 -->
+  <h2 id="section2">2. Information We Collect</h2>
+
+  <h3>2.1 Account Information</h3>
+  <ul>
+    <li><strong>Full name</strong> — used to personalize your experience</li>
+    <li><strong>Email address</strong> — used for authentication, password reset, and account management</li>
+    <li><strong>Password</strong> — encrypted using bcrypt hashing, never stored in plain text</li>
+    <li><strong>Profile photo</strong> — optional, used for display purposes only</li>
+  </ul>
+
+  <h3>2.2 Health & Body Data</h3>
+  <ul>
+    <li><strong>Age</strong> — used for calorie and BMR calculations</li>
+    <li><strong>Gender</strong> — used for calorie and BMR calculations</li>
+    <li><strong>Height</strong> — used for BMI and calorie calculations</li>
+    <li><strong>Current weight</strong> — used for progress tracking and calorie goals</li>
+    <li><strong>Target weight</strong> — used to set personalized goals</li>
+    <li><strong>Start weight</strong> — used for progress percentage calculations</li>
+    <li><strong>Activity level</strong> — used for TDEE and calorie burn estimates</li>
+    <li><strong>Health conditions</strong> — optional, used to personalize AI coach responses</li>
+    <li><strong>Weight history</strong> — logged entries over time for trend analysis</li>
+  </ul>
+
+  <h3>2.3 Nutrition & Diary Data</h3>
+  <ul>
+    <li><strong>Food diary entries</strong> — all meals, foods, calories, and macros you log</li>
+    <li><strong>Meal categories</strong> — breakfast, lunch, dinner, snacks, extra</li>
+    <li><strong>Daily calorie goal</strong> — set during onboarding and adjustable in settings</li>
+    <li><strong>Macro goals</strong> — protein, carbs, and fat targets</li>
+    <li><strong>Water intake</strong> — daily glasses tracked</li>
+    <li><strong>Food scan images</strong> — photos taken for AI food identification (not stored after analysis)</li>
+  </ul>
+
+  <h3>2.4 Usage & Behavioral Data</h3>
+  <ul>
+    <li><strong>Streak data</strong> — consecutive days of logging</li>
+    <li><strong>Achievement progress</strong> — in-app milestone completions</li>
+    <li><strong>Goal hit history</strong> — days where calorie goals were met</li>
+    <li><strong>App session data</strong> — used to maintain your logged-in state</li>
+  </ul>
+
+  <h3>2.5 Device Information</h3>
+  <ul>
+    <li><strong>Device type and OS version</strong> — used for bug fixing and compatibility</li>
+    <li><strong>Push notification token</strong> — used to send reminders (only if you enable notifications)</li>
+  </ul>
+
+  <h3>2.6 Payment Information</h3>
+  <p>BurnIQ does <strong>not</strong> collect or store any payment information. All subscription payments are processed directly by Apple through the App Store. We never have access to your credit card number, billing address, or payment details.</p>
+
+  <!-- Section 3 -->
+  <h2 id="section3">3. How We Collect Data</h2>
+  <table>
+    <tr><th>Data Type</th><th>How Collected</th></tr>
+    <tr><td>Account info</td><td>Provided by you during signup</td></tr>
+    <tr><td>Health & body data</td><td>Entered by you during onboarding and in settings</td></tr>
+    <tr><td>Food diary entries</td><td>Logged by you manually, via barcode scan, or AI recognition</td></tr>
+    <tr><td>Food scan images</td><td>Captured by your camera when you use the AI scanner</td></tr>
+    <tr><td>Weight history</td><td>Entered by you when you log your weight</td></tr>
+    <tr><td>Push notification token</td><td>Automatically generated by your device if you grant permission</td></tr>
+    <tr><td>Usage data</td><td>Automatically tracked within the app (streaks, achievements)</td></tr>
+  </table>
+
+  <!-- Section 4 -->
+  <h2 id="section4">4. How We Use Your Data</h2>
+  <p>We use your data solely to provide and improve the BurnIQ service. Specifically:</p>
+  <ul>
+    <li><strong>Account management</strong> — to authenticate you, maintain your account, and enable password reset</li>
+    <li><strong>Personalized calorie goals</strong> — to calculate your daily calorie and macro targets based on your body data and goals</li>
+    <li><strong>Progress tracking</strong> — to display your weight trend, calorie history, streak, BMI, and achievements</li>
+    <li><strong>AI Nutrition Coach</strong> — to provide personalized nutrition advice (see Section 5)</li>
+    <li><strong>Food scanning</strong> — to identify food items and estimate nutrition from photos (see Section 5)</li>
+    <li><strong>Push notifications</strong> — to send optional daily logging reminders (only if you enable them)</li>
+    <li><strong>PDF progress reports</strong> — generated locally on your device for sharing</li>
+    <li><strong>App improvement</strong> — to fix bugs and improve performance based on crash reports</li>
+    <li><strong>Subscription management</strong> — to verify your subscription status via RevenueCat</li>
+  </ul>
+  <div class="highlight">
+    <p>We <strong>do not</strong> use your data for advertising, we <strong>do not</strong> sell your data to any third party, and we <strong>do not</strong> use your data to train AI models.</p>
+  </div>
+
+  <!-- Section 5 -->
+  <h2 id="section5">5. AI Features & Third-Party Data Sharing <span class="badge">Important</span></h2>
+
+  <div class="highlight">
+    <p>BurnIQ uses Groq AI to power two features. <strong>Before using these features, the app will ask for your explicit consent.</strong> You can choose not to use AI features — the rest of the app works fully without them.</p>
+  </div>
+
+  <h3>5.1 AI Nutrition Coach</h3>
+  <div class="card">
+    <p><strong>What data is sent:</strong></p>
+    <ul>
+      <li>Your chat messages to the coach</li>
+      <li>Basic profile context: age, weight, height, goals, activity level</li>
+      <li>Recent nutrition summary: today's calories, macros, and water intake</li>
+      <li>Your current streak and goal information</li>
+    </ul>
+    <p><strong>Who it is sent to:</strong> <a href="https://groq.com">Groq, Inc.</a> via their API at api.groq.com</p>
+    <p><strong>Purpose:</strong> To generate personalized nutrition advice and responses to your questions</p>
+    <p><strong>Data retention:</strong> Groq processes the request in real time. Data is <strong>not stored by Groq</strong> beyond the immediate API request</p>
+    <p><strong>Groq Privacy Policy:</strong> <a href="https://groq.com/privacy-policy/">https://groq.com/privacy-policy/</a></p>
+  </div>
+
+  <h3>5.2 AI Food Scanner</h3>
+  <div class="card">
+    <p><strong>What data is sent:</strong></p>
+    <ul>
+      <li>The food photo you capture with your camera (as a base64 image)</li>
+      <li>A text prompt asking Groq to identify the food and estimate nutrition</li>
+    </ul>
+    <p><strong>Who it is sent to:</strong> <a href="https://groq.com">Groq, Inc.</a> via their vision API at api.groq.com</p>
+    <p><strong>Purpose:</strong> To identify food items in photos and estimate calories and macronutrients</p>
+    <p><strong>Data retention:</strong> Images are processed in real time. <strong>Images are not stored</strong> by BurnIQ or Groq after analysis</p>
+    <p><strong>Groq Privacy Policy:</strong> <a href="https://groq.com/privacy-policy/">https://groq.com/privacy-policy/</a></p>
+  </div>
+
+  <h3>5.3 AI Food Search Fallback</h3>
+  <div class="card">
+    <p><strong>What data is sent:</strong> A food description text query (e.g. "scrambled eggs")</p>
+    <p><strong>Who it is sent to:</strong> <a href="https://groq.com">Groq, Inc.</a></p>
+    <p><strong>Purpose:</strong> To estimate nutrition values when the food database returns no results</p>
+    <p><strong>Data retention:</strong> Not stored beyond the immediate request</p>
+  </div>
+
+  <h3>5.4 User Consent for AI Features</h3>
+  <p>Before using AI features for the first time, BurnIQ displays a clear consent dialog explaining:</p>
+  <ul>
+    <li>What data will be transmitted</li>
+    <li>Who it will be sent to (Groq AI)</li>
+    <li>That data is not stored after processing</li>
+    <li>A link to this Privacy Policy</li>
+  </ul>
+  <p>Users must tap <strong>"I Understand — Continue"</strong> to proceed. Users who decline are not required to use AI features — all other app functionality remains available.</p>
+
+  <!-- Section 6 -->
+  <h2 id="section6">6. Third-Party Services</h2>
+  <table>
+    <tr><th>Service</th><th>Purpose</th><th>Data Shared</th><th>Privacy Policy</th></tr>
+    <tr>
+      <td><strong>Supabase</strong></td>
+      <td>Database & authentication</td>
+      <td>All profile, diary, weight data</td>
+      <td><a href="https://supabase.com/privacy">supabase.com/privacy</a></td>
+    </tr>
+    <tr>
+      <td><strong>Groq AI</strong></td>
+      <td>AI coach & food scanner</td>
+      <td>Chat messages, profile context, food images</td>
+      <td><a href="https://groq.com/privacy-policy/">groq.com/privacy-policy</a></td>
+    </tr>
+    <tr>
+      <td><strong>RevenueCat</strong></td>
+      <td>Subscription management</td>
+      <td>Subscription status, device ID</td>
+      <td><a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></td>
+    </tr>
+    <tr>
+      <td><strong>Apple Sign In</strong></td>
+      <td>Social authentication</td>
+      <td>Name, email (if provided by user)</td>
+      <td><a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a></td>
+    </tr>
+    <tr>
+      <td><strong>Google Sign In</strong></td>
+      <td>Social authentication</td>
+      <td>Name, email, profile photo</td>
+      <td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td>
+    </tr>
+    <tr>
+      <td><strong>Open Food Facts</strong></td>
+      <td>Food nutrition database</td>
+      <td>Search queries only, no personal data</td>
+      <td><a href="https://world.openfoodfacts.org/privacy">openfoodfacts.org/privacy</a></td>
+    </tr>
+    <tr>
+      <td><strong>USDA FoodData Central</strong></td>
+      <td>Food nutrition database</td>
+      <td>Search queries only, no personal data</td>
+      <td><a href="https://www.usda.gov/privacy-policy">usda.gov/privacy-policy</a></td>
+    </tr>
+    <tr>
+      <td><strong>Resend</strong></td>
+      <td>Transactional email (password reset)</td>
+      <td>Email address only</td>
+      <td><a href="https://resend.com/privacy">resend.com/privacy</a></td>
+    </tr>
+    <tr>
+      <td><strong>Expo / EAS</strong></td>
+      <td>App build & delivery platform</td>
+      <td>Crash reports, device info</td>
+      <td><a href="https://expo.dev/privacy">expo.dev/privacy</a></td>
+    </tr>
+  </table>
+  <p>Each third-party service has its own privacy policy. We require that any service we use provides the same or equivalent level of data protection as described in this policy.</p>
+
+  <!-- Section 7 -->
+  <h2 id="section7">7. Medical Calculations & Citations</h2>
+  <div class="highlight">
+    <p><strong>Medical Disclaimer:</strong> BurnIQ is not a medical app and does not provide medical advice. All health calculations are estimates based on validated scientific formulas. Individual results will vary. Always consult a qualified healthcare professional before making significant dietary, exercise, or lifestyle changes.</p>
+  </div>
+
+  <h3>7.1 Calorie Estimation (BMR/TDEE)</h3>
+  <p>BurnIQ estimates your daily calorie needs and calories burned using the <strong>Mifflin-St Jeor equation</strong>, which is the formula most widely recommended by dietitians and healthcare professionals for estimating resting metabolic rate.</p>
+  <div class="citation">
+    <p><strong>Primary Citation:</strong> Mifflin MD, St Jeor ST, Hill LA, Scott BJ, Daugherty SA, Koh YO. "A new predictive equation for resting energy expenditure in healthy individuals." <em>American Journal of Clinical Nutrition.</em> 1990 Feb;51(2):241-7. PMID: 2305711. <a href="https://pubmed.ncbi.nlm.nih.gov/2305711/" target="_blank">View on PubMed →</a></p>
+  </div>
+  <div class="citation">
+    <p><strong>Activity Multipliers:</strong> Harris JA, Benedict FG. "A biometric study of human basal metabolism." <em>Proceedings of the National Academy of Sciences.</em> 1918;4(12):370-373. Revised by Roza AM, Shizgal HM. "The Harris Benedict equation reevaluated: resting energy requirements and the body cell mass." <em>American Journal of Clinical Nutrition.</em> 1984;40(1):168-82. <a href="https://pubmed.ncbi.nlm.nih.gov/6741850/" target="_blank">View on PubMed →</a></p>
+  </div>
+
+  <h3>7.2 BMI Calculation</h3>
+  <p>Body Mass Index (BMI) is calculated using the standard WHO formula: weight (kg) ÷ height² (m²).</p>
+  <div class="citation">
+    <p><strong>Citation:</strong> World Health Organization. "Obesity: preventing and managing the global epidemic. Report of a WHO consultation." <em>World Health Organ Tech Rep Ser.</em> 2000;894:i-xii, 1-253. <a href="https://www.who.int/publications/i/item/obesity-preventing-and-managing-the-global-epidemic" target="_blank">View WHO Reference →</a></p>
+  </div>
+  <p><strong>BMI Classifications (WHO standard):</strong></p>
+  <table>
+    <tr><th>BMI Range</th><th>Classification</th></tr>
+    <tr><td>Below 18.5</td><td>Underweight</td></tr>
+    <tr><td>18.5 – 24.9</td><td>Normal weight</td></tr>
+    <tr><td>25.0 – 29.9</td><td>Overweight</td></tr>
+    <tr><td>30.0 and above</td><td>Obese</td></tr>
+  </table>
+
+  <h3>7.3 Macronutrient Guidelines</h3>
+  <div class="citation">
+    <p><strong>Citation:</strong> National Academies of Medicine. "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids." Washington, DC: The National Academies Press, 2005. <a href="https://www.nationalacademies.org/our-work/dietary-reference-intakes" target="_blank">View Reference →</a></p>
+  </div>
+
+  <h3>7.4 Food Nutrition Data</h3>
+  <p>Nutrition data is sourced from:</p>
+  <ul>
+    <li><strong>Open Food Facts</strong> — community-maintained database of packaged food products worldwide. <a href="https://world.openfoodfacts.org">world.openfoodfacts.org</a></li>
+    <li><strong>USDA FoodData Central</strong> — official US government food composition database. <a href="https://fdc.nal.usda.gov">fdc.nal.usda.gov</a></li>
+    <li><strong>Groq AI estimates</strong> — used as fallback when database results are unavailable. AI-generated nutritional estimates are approximations and may vary from actual values.</li>
+    <li><strong>Restaurant data</strong> — sourced from publicly available restaurant nutrition information.</li>
+  </ul>
+
+  <!-- Section 8 -->
+  <h2 id="section8">8. Data Storage & Security</h2>
+  <ul>
+    <li>All data is stored using <strong>Supabase</strong>, a SOC 2 Type II certified cloud platform hosted on AWS</li>
+    <li>All data in transit is encrypted using <strong>TLS 1.2+</strong></li>
+    <li>Data at rest is encrypted using <strong>AES-256</strong></li>
+    <li>Passwords are hashed using <strong>bcrypt</strong> with a salt factor — never stored in plain text</li>
+    <li>Row-level security (RLS) policies ensure each user can only access their own data</li>
+    <li>API keys and secrets are never stored in the app binary — they are stored server-side</li>
+    <li>BurnIQ undergoes regular security reviews and updates dependencies promptly</li>
+  </ul>
+
+  <!-- Section 9 -->
+  <h2 id="section9">9. Data Retention</h2>
+  <ul>
+    <li><strong>Active accounts:</strong> Data is retained for as long as your account is active</li>
+    <li><strong>Account deletion:</strong> When you delete your account, all personal data is permanently deleted from our servers within 30 days</li>
+    <li><strong>AI processing:</strong> Chat messages and food images sent to Groq AI are not retained beyond the real-time request</li>
+    <li><strong>Backups:</strong> Supabase maintains encrypted backups for disaster recovery. These are purged on a rolling 30-day schedule</li>
+    <li><strong>Local cache:</strong> Some data is cached locally on your device in AsyncStorage for performance. This is cleared when you delete your account</li>
+  </ul>
+  <p>To delete your account: Open BurnIQ → Profile → Settings → scroll to bottom → tap <strong>"Delete Account"</strong>.</p>
+
+  <!-- Section 10 -->
+  <h2 id="section10">10. Your Rights</h2>
+  <p>Depending on your location, you may have the following rights regarding your personal data:</p>
+  <ul>
+    <li><strong>Right to access</strong> — view all your data within the app at any time</li>
+    <li><strong>Right to rectification</strong> — correct inaccurate data through Profile settings</li>
+    <li><strong>Right to erasure</strong> — delete your account and all associated data</li>
+    <li><strong>Right to data portability</strong> — export your progress as a PDF report via the Progress screen</li>
+    <li><strong>Right to withdraw consent</strong> — you can stop using AI features at any time without affecting your account</li>
+    <li><strong>Right to object</strong> — you can opt out of push notifications in your device Settings at any time</li>
+    <li><strong>GDPR rights</strong> — if you are in the EU/EEA, you have additional rights under GDPR. Contact us at samuelsokan07@gmail.com</li>
+    <li><strong>CCPA rights</strong> — if you are a California resident, you have rights under CCPA. We do not sell personal data</li>
+  </ul>
+
+  <!-- Section 11 -->
+  <h2 id="section11">11. Children's Privacy</h2>
+  <p>BurnIQ is not directed at children under the age of <strong>13</strong>. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately at <a href="mailto:samuelsokan07@gmail.com">samuelsokan07@gmail.com</a> and we will delete the information within 30 days.</p>
+  <p>Users between 13 and 17 should use BurnIQ only with parental supervision.</p>
+
+  <!-- Section 12 -->
+  <h2 id="section12">12. Cookies & Tracking</h2>
+  <ul>
+    <li>BurnIQ does <strong>not</strong> use advertising cookies or cross-app tracking</li>
+    <li>BurnIQ does <strong>not</strong> share data with advertising networks or data brokers</li>
+    <li>BurnIQ does <strong>not</strong> use fingerprinting or device tracking for advertising</li>
+    <li>BurnIQ uses Supabase session tokens to maintain your logged-in state — these are stored securely on your device</li>
+  </ul>
+
+  <!-- Section 13 -->
+  <h2 id="section13">13. International Data Transfers</h2>
+  <p>BurnIQ is operated from the United States. If you are accessing BurnIQ from outside the United States, your data may be transferred to, stored, and processed in the United States and other countries where our service providers operate.</p>
+  <p>By using BurnIQ, you consent to this transfer. We ensure that all data transfers comply with applicable privacy laws and that service providers maintain appropriate data protection measures.</p>
+
+  <!-- Section 14 -->
+  <h2 id="section14">14. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. We will notify you of significant changes by:</p>
+  <ul>
+    <li>Updating the "Last updated" date at the top of this policy</li>
+    <li>Displaying an in-app notification for material changes</li>
+    <li>Sending an email notification for significant changes that affect your rights</li>
+  </ul>
+  <p>Continued use of BurnIQ after changes constitutes acceptance of the updated policy.</p>
+
+  <!-- Section 15 -->
+  <h2 id="section15">15. Contact Us</h2>
+  <div class="card">
+    <h3>Get in Touch</h3>
+    <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your personal data, please contact us:</p>
+    <p><strong>Email:</strong> <a href="mailto:samuelsokan07@gmail.com">samuelsokan07@gmail.com</a></p>
+    <p><strong>Support page:</strong> <a href="https://samuelsokan07myboyy.github.io/burniq/support.html">https://samuelsokan07myboyy.github.io/burniq/support.html</a></p>
+    <p><strong>Response time:</strong> We aim to respond to all privacy-related requests within 72 hours.</p>
+  </div>
+
+  <div class="card" style="margin-top: 24px;">
+    <h3>Legal Links</h3>
+    <p><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use (Apple Standard EULA)</a></p>
+    <p><a href="https://samuelsokan07myboyy.github.io/burniq/support.html">Support Center</a></p>
   </div>
 
 </div>
 
 <div class="footer">
-  <p>🔥 BurnIQ — Track smarter. Burn harder.</p>
-  <p style="margin-top: 8px;">© 2026 Samuel Sokan. All rights reserved.</p>
+  <div class="footer-logo">🔥 BurnIQ</div>
+  <p>Track smarter. Burn harder.</p>
+  <p>© 2026 Samuel Sokan. All rights reserved.</p>
+  <p style="margin-top: 8px;">Last updated: April 30, 2026</p>
 </div>
 
 </body>
